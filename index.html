@@ -1,0 +1,351 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>点阵加速 · 把网络这件事讲清楚</title><meta name="description" content="点阵加速是一份写给普通用户的网络加速服务说明：三档套餐、设备数量、流量额度与使用步骤都在这里逐条摊开，读完再做决定也不迟。"><meta name="keywords" content="点阵加速,网络加速服务,套餐说明,设备同时在线,常见问题"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-2c81ac158d.pnwhyog.cn/"><meta property="og:type" content="website"><meta property="og:title" content="点阵加速 · 把网络这件事讲清楚"><meta property="og:description" content="点阵加速是一份写给普通用户的网络加速服务说明：三档套餐、设备数量、流量额度与使用步骤都在这里逐条摊开，读完再做决定也不迟。"><meta property="og:url" content="https://p-2c81ac158d.pnwhyog.cn/"><meta property="og:site_name" content="点阵加速"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-2c81ac158d.pnwhyog.cn/", "name": "点阵加速 · 把网络这件事讲清楚", "description": "点阵加速是一份写给普通用户的网络加速服务说明：三档套餐、设备数量、流量额度与使用步骤都在这里逐条摊开，读完再做决定也不迟。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="cc83029f6208f2bc922c201c:91f23b4e856a0810cac50609eddf4f3867e302c549aaa4e6a6d1a58cfa583273:b58dbd096914320003d3"></head><body id="top"><style>
+  :root {--paper: #f4efe6;--paper-deep: #ebe3d5;--ink: #221f1c;--ink-soft: #5b544c;--brick: #a63a25;--brick-deep: #7f2b1a;--line: #d3c7b5}
+  * {box-sizing: border-box}
+  html {}
+  body {margin: 0;background: var(--paper);color: var(--ink);font-family: "Songti SC", "Source Han Serif SC", "Noto Serif CJK SC", Georgia, "Times New Roman", serif;font-size: 16px;line-height: 1.85;padding-bottom: 64px;-webkit-font-smoothing: antialiased}
+  .wrap {max-width: 1080px;margin: 0 auto;padding: 0 24px}
+  a {color: var(--brick-deep);text-decoration: none;border-bottom: 1px solid rgba(166,58,37,.4)}
+  a:hover {color: var(--brick);border-bottom-color: var(--brick)}
+
+  /* ---------- HERO: poster type ---------- */
+  .hero {border-bottom: 1px solid var(--line);padding: 56px 0 40px;position: relative}
+  .hero-kicker {display: flex;flex-wrap: wrap;gap: 8px 18px;font-size: 12px;letter-spacing: .28em;text-transform: uppercase;color: var(--brick);margin-bottom: 28px;font-family: "Helvetica Neue", Arial, sans-serif}
+  .hero-kicker span::before {content: "—";margin-right: 8px;color: var(--line)}
+  .hero-kicker span:first-child::before {content: "";margin: 0}
+  h1.poster {margin: 0;font-size: clamp(64px, 17vw, 208px);line-height: .86;letter-spacing: -.03em;font-weight: 900;color: var(--ink);word-break: keep-all}
+  h1.poster em {font-style: normal;color: var(--brick)}
+  .hero-sub {display: grid;grid-template-columns: 1.1fr .9fr;gap: 32px 48px;margin-top: 40px;padding-top: 28px;border-top: 1px solid var(--line)}
+  .hero-sub p {margin: 0;color: var(--ink-soft);font-size: 17px}
+  .hero-facts {list-style: none;margin: 0;padding: 0;display: grid;grid-template-columns: repeat(2, 1fr);gap: 18px 24px}
+  .hero-facts li {border-left: 3px solid var(--brick);padding-left: 12px;font-size: 13px;color: var(--ink-soft);line-height: 1.6}
+  .hero-facts b {display: block;font-size: 22px;color: var(--ink);letter-spacing: -.01em;font-weight: 700}
+
+  /* ---------- Section scaffolding ---------- */
+  section {padding: 64px 0;border-bottom: 1px solid var(--line)}
+  section:last-of-type {border-bottom: 0}
+  .sec-head {display: grid;grid-template-columns: 220px 1fr;gap: 24px 48px;margin-bottom: 40px;align-items: start}
+  .sec-num {font-family: "Helvetica Neue", Arial, sans-serif;font-size: 13px;letter-spacing: .24em;color: var(--brick);padding-top: 10px}
+  h2 {margin: 0 0 10px;font-size: clamp(26px, 4vw, 38px);line-height: 1.25;letter-spacing: -.01em;font-weight: 800}
+  .sec-head p {margin: 0;color: var(--ink-soft);max-width: 56ch}
+
+  /* ---------- Steps ---------- */
+  .steps {display: grid;grid-template-columns: repeat(3, 1fr);gap: 0 36px}
+  .step {border-left: 3px solid var(--brick);padding: 4px 0 4px 18px}
+  .step .idx {font-family: "Helvetica Neue", Arial, sans-serif;font-size: 12px;letter-spacing: .2em;color: var(--brick)}
+  .step h3 {margin: 6px 0 8px;font-size: 19px;font-weight: 700}
+  .step p {margin: 0;font-size: 15px;color: var(--ink-soft)}
+
+  /* ---------- Plans: vertical expanding rows ---------- */
+  .plans {display: flex;flex-direction: column}
+  .plan {display: grid;grid-template-columns: 240px 1fr 180px;gap: 20px 36px;padding: 30px 0 30px 20px;border-top: 1px solid var(--line);border-left: 5px solid var(--line);position: relative}
+  .plan:last-child {border-bottom: 1px solid var(--line)}
+  .plan.featured {border-left-color: var(--brick);background: linear-gradient(90deg, rgba(166,58,37,.05), rgba(166,58,37,0) 65%)}
+  .plan-name {font-size: 24px;font-weight: 800;margin: 0 0 6px;line-height: 1.2}
+  .plan-tag {display: inline-block;font-family: "Helvetica Neue", Arial, sans-serif;font-size: 11px;letter-spacing: .18em;color: var(--paper);background: var(--brick);padding: 2px 8px;margin-top: 4px}
+  .plan-note {font-size: 13px;color: var(--ink-soft);margin: 10px 0 0}
+  .plan-features {list-style: none;margin: 0;padding: 0;display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));gap: 6px 28px;font-size: 15px}
+  .plan-features li {padding-left: 16px;position: relative;color: var(--ink-soft)}
+  .plan-features li::before {content: "";position: absolute;left: 0;top: .78em;width: 6px;height: 6px;background: var(--brick)}
+  .plan-price {text-align: right;align-self: start}
+  .plan-price .amount {font-size: 26px;font-weight: 800;display: block;letter-spacing: -.01em}
+  .plan-price .annual {display: block;font-size: 13px;color: var(--ink-soft);margin-top: 4px}
+
+  /* ---------- Clients ---------- */
+  .clients {display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));gap: 0 40px}
+  .client {border-left: 3px solid var(--brick);padding: 2px 0 2px 18px;margin-bottom: 28px}
+  .client h3 {margin: 0 0 6px;font-size: 18px}
+  .client p {margin: 0;font-size: 15px;color: var(--ink-soft)}
+  .client .where {font-family: "Helvetica Neue", Arial, sans-serif;font-size: 12px;letter-spacing: .16em;color: var(--brick);display: block;margin-bottom: 4px}
+  .clients-aside {grid-column: 1 / -1;margin-top: 8px;padding: 20px 22px;background: var(--paper-deep);font-size: 14px;color: var(--ink-soft);border-left: 5px solid var(--ink)}
+  .clients-aside b {color: var(--ink)}
+
+  /* ---------- FAQ: numbered list ---------- */
+  .faq {counter-reset: q}
+  .faq-item {counter-increment: q;display: grid;grid-template-columns: 64px 1fr;gap: 4px 24px;padding: 26px 0;border-top: 1px solid var(--line)}
+  .faq-item:last-child {border-bottom: 1px solid var(--line)}
+  .faq-item::before {content: counter(q, decimal-leading-zero);font-family: "Helvetica Neue", Arial, sans-serif;font-size: 22px;font-weight: 700;color: var(--brick);line-height: 1.4}
+  .faq-item h3 {grid-column: 2;margin: 0 0 6px;font-size: 18px;font-weight: 700;line-height: 1.5}
+  .faq-item p {grid-column: 2;margin: 0;font-size: 15px;color: var(--ink-soft);max-width: 66ch}
+
+  /* ---------- Column intro ---------- */
+  .column {display: grid;grid-template-columns: 220px 1fr;gap: 24px 48px}
+  .column-body p {margin: 0 0 18px;max-width: 64ch;color: var(--ink-soft)}
+  .column-body p:first-child {color: var(--ink);font-size: 18px}
+  .pull {margin: 26px 0;padding: 18px 0 18px 22px;border-left: 5px solid var(--brick);font-size: 19px;line-height: 1.7;color: var(--ink);max-width: 56ch}
+
+  /* ---------- Bottom fixed nav ---------- */
+  .dock {position: fixed;bottom: 0;left: 0;right: 0;z-index: 20;background: var(--ink);color: var(--paper);border-top: 3px solid var(--brick)}
+  .dock-inner {max-width: 1080px;margin: 0 auto;padding: 0 24px;display: flex;align-items: center;gap: 6px 30px;flex-wrap: wrap;min-height: 56px;font-family: "Helvetica Neue", Arial, sans-serif;font-size: 13px;letter-spacing: .12em}
+  .dock-brand {font-weight: 700;letter-spacing: .18em;color: var(--paper);margin-right: auto;border-bottom: 0}
+  .dock a {color: #d8cfc1;border-bottom: 1px solid transparent;padding: 4px 0}
+  .dock a:hover {color: #fff;border-bottom-color: var(--brick)}
+
+  footer {padding: 56px 0 24px;font-size: 13px;color: var(--ink-soft)}
+  footer p {margin: 0 0 8px;max-width: 70ch}
+
+  @media (max-width: 860px) {
+    .hero-sub, .sec-head, .column {grid-template-columns: 1fr;gap: 18px}
+    .steps {grid-template-columns: 1fr;gap: 26px}
+    .plan {grid-template-columns: 1fr;padding-left: 18px}
+    .plan-price {text-align: left}
+    .plan-features {grid-template-columns: 1fr}
+    .clients {grid-template-columns: 1fr}
+    h1.poster {font-size: clamp(56px, 20vw, 120px)}
+  }
+  @media (max-width: 520px) {
+    body {font-size: 15px}
+    .hero {padding-top: 36px}
+    section {padding: 48px 0}
+    .faq-item {grid-template-columns: 40px 1fr;gap: 4px 14px}
+    .dock-inner {gap: 4px 16px;font-size: 12px;letter-spacing: .06em}
+    .dock-brand {width: 100%;margin-bottom: 4px}
+  }
+</style><main>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-kicker">
+        <span>网络加速服务说明</span>
+        <span>三档套餐</span>
+        <span>按需选择</span>
+      </div>
+      <h1 class="poster">点阵<em>加速</em></h1>
+      <div class="hero-sub">
+        <p>我们不太擅长喊口号。这个页面想做的事更简单：把点阵加速的三档套餐、同时在线设备数、每月流量额度，以及你第一次使用时要走的几步，原原本本写在一页里。你读完，觉得合适再决定。</p>
+        <ul class="hero-facts">
+          <li><b>3 档</b>基础 / 旗舰 / 团队</li>
+          <li><b>3 / 5 / 20</b>同时在线设备数</li>
+          <li><b>100 / 300 / 1000 GB</b>每月流量额度</li>
+          <li><b>年付</b>价格约为月付十个月</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section id="intro">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-num">01 / 缘起</div>
+        <div>
+          <h2>先说说，这页想解决什么</h2>
+          <p>关于加速服务的信息，往往散落在各处。我们把能说清楚的部分集中起来，把不能承诺的部分留白。</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="sec-num">写在前面</div>
+        <div class="column-body">
+          <p>很多人第一次接触网络加速服务时，会先被各种名词绕晕：节点、专线、流媒体解锁、原生 IP。名词本身没错，但先知道"自己要用多少、几台设备、愿不愿意按年付"，比记住这些词更有用。</p>
+          <p>所以这一页按使用顺序来写：先讲三步上手，再逐行摊开三档套餐，接着是老实话一般的常见问题。没有倒计时，也没有"最后名额"。</p>
+          <div class="pull">选择服务的核心，往往不是谁的宣传更响，而是谁的额度、设备数和支持方式，刚好落在你的日常里。</div>
+          <p>点阵加速提供的三档方案分别面向轻度使用、日常主力与多人协作三种情形。下面每一档都写明了流量、设备数与权益，你能直接对照自己的习惯来判断。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-num">02 / 上手</div>
+        <div>
+          <h2>三步，从注册到日常使用</h2>
+          <p>流程并不复杂，关键在于先把账号与设备配好，后面基本就是打开即用。</p>
+        </div>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <div class="idx">STEP 01</div>
+          <h3>选定套餐并充值</h3>
+          <p>根据每月大致用量与同时在线的设备数，从基础版、旗舰版、团队版中挑一档。可以先按月付，觉得稳定后再考虑年付。</p>
+        </article>
+        <article class="step">
+          <div class="idx">STEP 02</div>
+          <h3>在常用设备上完成配置</h3>
+          <p>按所选客户端完成接入配置，并确认同时在线设备数没有超过套餐上限。超出上限时，先登出旧设备再接入新设备。</p>
+        </article>
+        <article class="step">
+          <div class="idx">STEP 03</div>
+          <h3>按需调整与查看用量</h3>
+          <p>日常使用中留意每月流量消耗节奏。接近额度时，可以选择升级套餐，或在新计费周期开始后继续使用原档位。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-num">03 / 套餐</div>
+        <div>
+          <h2>三档套餐，逐行展开</h2>
+          <p>每一档包含什么、适合谁，都在下面这一列里。年付价格约为月付的十个月，差额就是省下来的部分。</p>
+        </div>
+      </div>
+
+      <div class="plans">
+
+        <article class="plan">
+          <div>
+            <h3 class="plan-name">基础版</h3>
+            <p class="plan-note">适合偶尔使用、以手机和电脑为主的轻度用户。</p>
+          </div>
+          <ul class="plan-features">
+            <li>每月 100GB 流量额度</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>基础流媒体解锁</li>
+            <li>普通线路节点池</li>
+          </ul>
+          <div class="plan-price">
+            <span class="amount">¥15 / 月</span>
+            <span class="annual">按年付 ¥150 / 年</span>
+          </div>
+        </article>
+
+        <article class="plan featured">
+          <div>
+            <h3 class="plan-name">旗舰版</h3>
+            <span class="plan-tag">多数人的选择</span>
+            <p class="plan-note">适合每天使用、同时挂着几种设备的日常主力用户。</p>
+          </div>
+          <ul class="plan-features">
+            <li>每月 300GB 流量额度</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7×24 优先工单支持</li>
+          </ul>
+          <div class="plan-price">
+            <span class="amount">¥35 / 月</span>
+            <span class="annual">按年付 ¥350 / 年</span>
+          </div>
+        </article>
+
+        <article class="plan">
+          <div>
+            <h3 class="plan-name">团队版</h3>
+            <p class="plan-note">适合多人共用、需要更宽松额度与更高带宽的场景。</p>
+          </div>
+          <ul class="plan-features">
+            <li>每月 1000GB 流量额度</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+          <div class="plan-price">
+            <span class="amount">¥85 / 月</span>
+            <span class="annual">按年付 ¥850 / 年</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="clients">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-num">04 / 客户端</div>
+        <div>
+          <h2>在什么设备上用，先说清楚</h2>
+          <p>点阵加速以常见桌面与移动设备的使用场景为主。下表按平台列出接入方式，具体安装包与配置信息请以账号内的说明为准。</p>
+        </div>
+      </div>
+      <div class="clients">
+        <article class="client">
+          <span class="where">桌面 · Windows</span>
+          <h3>Windows 客户端</h3>
+          <p>在桌面端完成接入配置后使用，适合长时间在电脑前工作、需要稳定连接的情形。建议先确认套餐的同时在线设备数仍未用满。</p>
+        </article>
+        <article class="client">
+          <span class="where">桌面 · macOS</span>
+          <h3>macOS 客户端</h3>
+          <p>面向苹果桌面系统提供接入方式，配置步骤与 Windows 类似，均需使用账号内的连接信息完成设置。</p>
+        </article>
+        <article class="client">
+          <span class="where">移动 · iOS</span>
+          <h3>iOS 客户端</h3>
+          <p>在 iPhone 与 iPad 上使用，适合通勤、外出等场景。移动端流量消耗通常低于桌面端，可作为基础版的常见搭配。</p>
+        </article>
+        <article class="client">
+          <span class="where">移动 · Android</span>
+          <h3>Android 客户端</h3>
+          <p>面向安卓手机与平板提供接入方式。若同一账号已在多台设备上登录，请留意同时在线数量是否达到套餐上限。</p>
+        </article>
+        <div class="clients-aside">
+          <b>关于下载与配置：</b>本页不提供安装包的直接下载地址。请在你的账号内查看对应平台的最新接入说明，并核对版本信息。不同平台的界面与操作步骤可能随版本更新而变化，遇到与描述不一致的地方，以账号内说明为准。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-num">05 / 常见问题</div>
+        <div>
+          <h2>几条被问得最多的问题</h2>
+          <p>下面这些回答尽量直接，不绕弯。如果这里没有覆盖你的疑问，可以通过账号内的工单渠道提问。</p>
+        </div>
+      </div>
+
+      <div class="faq">
+
+        <article class="faq-item">
+          <h3>三档套餐最核心的区别是什么？</h3>
+          <p>主要差别在三个数字：每月流量额度（100GB / 300GB / 1000GB）、同时在线设备数（3 / 5 / 20），以及对应的线路与支持方式。旗舰版增加了 IPLC 专线游戏加速优化与优先工单支持，团队版则进一步提供 VIP 专属高带宽节点、企业定制路由与专属客户经理。</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>年付和月付差多少？可以先月付再转年付吗？</h3>
+          <p>三档的年付价格分别是 ¥150、¥350、¥850，大致相当于十个月的月付费用。是否支持中途转年付，取决于账号当前的计费周期状态，具体操作请以账号内的续费入口说明为准。比较稳妥的做法是先按月付用一段时间，确认用量与设备数合适后再考虑年付。</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>怎么判断自己该选哪一档？</h3>
+          <p>可以按两个问题来定：一是平时有几台设备需要同时在线，二是每月大致会用掉多少流量。手机加电脑两台设备、以浏览与视频为主，基础版通常够用；如果再加上平板、电视或家里第二台电脑，旗舰版的五台额度更从容；多人共用或需要更高带宽时，再考虑团队版。</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>超出每月流量额度会怎样？</h3>
+          <p>每档套餐都有明确的月度流量上限，额度按计费周期计算。接近上限时，建议先查看用量情况，再决定是等待新周期开始，还是升级到更高档位。具体的超出处理方式，以账号内的用量说明为准。</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>同时在线设备数是怎么算的？</h3>
+          <p>指同一时间处于在线状态的设备数量。基础版为 3 台，旗舰版为 5 台，团队版为 20 台。如果超出上限，通常需要先在旧设备上退出，才能让新设备接入。把不常用的设备登出，是避免占满名额的简单办法。</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>流媒体解锁与游戏加速具体指什么？</h3>
+          <p>基础版提供基础流媒体解锁；旗舰版与团队版提供更完整的流媒体解锁能力，其中旗舰版还包含 IPLC 专线游戏加速优化。实际效果会受网络环境、目标服务策略和使用时段影响，本页不对具体服务或游戏的表现作出承诺，建议按自己的主要用途选择档位。</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>遇到问题怎么联系？</h3>
+          <p>旗舰版包含 7×24 优先工单支持，团队版另有专属客户经理服务。基础版用户同样可以通过账号内的工单渠道提交问题，只是响应顺位相对靠后。提交时附上设备平台、套餐档位和问题出现的具体时间，通常能更快定位。</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p>本页为点阵加速的服务说明页面，内容涵盖套餐档位、设备数量、流量额度与使用流程。价格与权益以本页所列为基础，后续如有调整，将在账号内同步说明。</p>
+      <p>页面不提供安装包下载地址，也不对具体网络环境下的实际速率作出承诺。请在了解自身使用需求后作出选择。</p>
+    </div>
+  </footer>
+
+</main>
+
+<nav class="dock" aria-label="页面导航">
+  <div class="dock-inner">
+    <a class="dock-brand" href="#top">点阵加速</a>
+    <a href="#intro">缘起</a>
+    <a href="#how">三步上手</a>
+    <a href="#plans">套餐</a>
+    <a href="#clients">客户端</a>
+    <a href="#faq">常见问题</a>
+  </div>
+</nav><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
